@@ -1,0 +1,155 @@
+/* Paleta PixelNorte
+
+   Principal: #040f1f
+   Secundario: #F2A65A
+*/
+
+
+
+/* Base Y TIPOGRAFÍA...............................*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;           /* Fuente letra */
+    line-height: 1.5;                                         /* tamaño de letra*/
+    color: #07e821;                                      /* Color de texto general */
+    background-color: #040f1f;                                /* Color de fondo*/
+
+}
+
+             
+
+
+/* Títulos ................................*/
+
+h1, h2 {
+    color: #04f1e7;        /* Color principal de la paleta */
+}
+
+h1 {
+    font-size: 2.5rem;     /* Tamaño grande */
+}
+
+h2 {
+    font-size: 1.8rem;    /* Tamaño chico que el h1) */
+}
+
+
+
+
+/* HEADER Y NAVEGACIÓN ................................... */
+
+
+#site-header {
+    background-color: #000000;              /* Color fondo titulo */
+    color: #66f1fa;                          /*  Texto en blanco */
+    padding: 50px;                           /* Espacio del color fondo titulo*/
+
+}
+
+
+
+/* El h1 dentro del header......................... */
+
+#site-header h1 {
+    color: #66f1fa;
+    text-align: center;
+    }
+
+
+
+/* Navegación; alinear los enlaces........................ */
+
+#nav-principal {
+    display: flex;                    /* Activa Flexbox */
+    justify-content: space-between;   /* Distribuye el espacio entre los elementos */
+    align-items: center;              /* Centrar verticalmente */
+    list-style: none;                 /* Saca los puntitos de la lista */
+    padding: 0;
+    margin-top: 15px;
+}
+
+
+
+/* Sacar los puntitos de la lista <ul> ....................... */
+
+#nav-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* menu: sin subrayado y con color que contraste .......................... */
+
+#nav-principal a {
+    text-decoration: none;             /* Saca el subrayado */
+    color: #10f0f9;                    /* color del menu inicio, servicio, contacto*/
+    background-color: #000000;          /* Fondo negro para camuflarse con el fondo */
+    padding: 10px 20px;                 /* Tamaño del botón */
+    border-radius: 5px;               /* Bordes un poquito redondeado */
+    font-weight: bold;               /* Negritas para que se vea mas las letras dentro del boton */
+    transition-duration: 0.4s;           /* Animación */
+
+
+
+
+}
+
+                 
+
+/* Efecto al pasar el mouse por encima.................... */
+
+#nav-principal a:hover {
+    color: #bee92b;                    /* Color al pasar el mouse */
+    background-color: #07e821;         /* Fondo Verde */
+    color: #000000;                    /* Letras en negritas */
+    box-shadow: 0 0 15px #07e821;      /* brillo verde alrededor  */
+
+
+
+}
+
+                                
+
+
+/*  LOGO   */
+
+#site-header img {
+    display: block;             /* Obliga a la imagen a comportarse como un bloque */
+    margin: 0 auto;             /* ¡La magia! 0 arriba/abajo, auto a los lados = CENTRO */
+    width: 650px;               /* <--- CAMBIÁ ESTE NÚMERO para el tamaño (probá 100, 200, etc.) */
+    height: auto;               /* Mantiene la proporción original para que no se deforme */
+    margin-bottom: 20px;        /* Un poco de espacio entre el logo y el menú */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
