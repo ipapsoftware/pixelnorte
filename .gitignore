@@ -1,0 +1,9 @@
+# Temporales del editor
+*~
+*.swp
+
+# Logs (registros de errores)
+*.log
+
+# Notas personales
+notas.txt
