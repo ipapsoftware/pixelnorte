@@ -45,7 +45,7 @@ h2 {
 
 
 #site-header {
-    background-color: #1E3A5F;              /* Color fondo titulo */
+    background-color: #000000;              /* Color fondo titulo */
     color: #66f1fa;                          /*  Texto en blanco */
     padding: 50px;                           /* Espacio del color fondo titulo*/
 
@@ -122,7 +122,7 @@ h2 {
                                 
 
 
-/*  LOGO   */
+/*  LOGO   ....................*/
 
 #site-header img {
     display: block;             /* Obliga a la imagen a comportarse como un bloque */
@@ -131,6 +131,38 @@ h2 {
     height: auto;               /* Mantiene la proporción original para que no se deforme */
     margin-bottom: 20px;        /* Un poco de espacio entre el logo y el menú */
 }
+
+
+
+
+/*  sabado 24/10 completamos el tp  ...................*/
+
+
+
+
+/* Grid simple para cumplir el TP ..........................*/
+
+
+#quienes-somos ul {
+    display: grid;
+    grid-template-columns: 1fr;   /* aca agrego 1 columna en pantalla de celular ...... */
+    gap: 15px;
+}
+
+
+
+
+/* Media query para PC (Mobile First)....................... */
+
+@media (min-width: 768px) {
+    #quienes-somos ul {
+        grid-template-columns: 1fr 1fr;      /* aca agrego 2 columna en compu ..... */
+    }
+}
+
+
+
+
 
 
 
