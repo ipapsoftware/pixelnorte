@@ -1,0 +1,9 @@
+# archivos temporales
+*~
+*.swp
+
+# archivo de registro
+*.log
+
+# borrador personal
+notas.txt
