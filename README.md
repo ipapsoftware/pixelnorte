@@ -8,11 +8,24 @@ El diseño en general tiene un efecto matrix, solo convine los colores negros y 
 
 si bien lo hice con tiempo porq estaba de vacaciones, tampoco quise meterle muchas cosas.
 
-lo configure para pantalla web y celular,
+lo configure para pantalla web y celular.
+
+/* hoy 27/10 re hago los commits, pero antes de borrar tomo foto de lo que ya habia echo en laboratotio antes... 
+ 
 
 
 
-\################# estructura #################
+
+/#################### tecnologia ###################################
+
+
+
+tecnologia que se uso en la pagina: html y css
+
+
+
+
+/################# estructura #################
 
 
 
