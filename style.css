@@ -27,11 +27,11 @@ body {
 /* Títulos ................................*/
 
 h1, h2 {
-    color: #00FF00;        /* Color principal de la paleta */
+    color: #04f1e7;        /* Color principal de la paleta */
 }
 
 h1 {
-    font-size: 2.9rem;     /* Tamaño grande */
+    font-size: 2.5rem;     /* Tamaño grande */
 }
 
 h2 {
