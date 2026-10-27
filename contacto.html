@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - PixelNorte</title>
+
+    <link rel="stylesheet" href="style.css?v=2">
+
+</head>
+<body>
+
+
+    <!-- ................Cabecera y Menú......... -->
+
+
+    <header id="site-header">
+        <h1>PixelNorte</h1>
+          <img src="logo.png" alt="Logo de PixelNorte" width="120">
+        
+        <nav id="nav-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!--................ CONTENIDO .............. -->
+
+
+    <main>
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <p>¿Tenés un proyecto en mente? Completá el siguiente formulario y nos pondremos en contacto con vos a la brevedad.</p>
+
+            <form id="formulario-contacto" action="#" method="post">
+                
+      <!-- ..........campos para rellenar ........ -->
+
+      <!-- ...........cuadro Nombre........ -->
+
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+     <!-- ............cuadro Email............ -->
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+      <!-- ............cuadro Teléfono............. -->
+
+                <label for="telefono">Teléfono (opcional):</label><br>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+
+      <!-- ...........cuadro de Servicios............. -->
+
+                <label for="servicio">Servicio de interés:</label><br>
+                <select id="servicio" name="servicio">
+                    <option value="identidad">Diseño de Identidad Visual (Logo)</option>
+                    <option value="tienda">Desarrollo de Tienda Online</option>
+                    <option value="auditoria">Auditoría de Seguridad Web</option>
+                    <option value="email">Campaña de Email Marketing</option>
+                </select><br><br>
+
+        <!-------------- cuaadro  de contacto --------------->
+
+                <label>¿Cómo preferís que te contactemos?</label><br>
+                <input type="checkbox" id="contacto-email" name="contacto" value="email">
+                <label for="contacto-email">Email</label><br>
+                <input type="checkbox" id="contacto-telefono" name="contacto" value="telefono">
+                <label for="contacto-telefono">Teléfono</label><br><br>
+
+         <!------------------- Botón de envío--------------->
+
+                <button type="submit">Enviar mensaje</button>
+                
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
