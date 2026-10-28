@@ -162,28 +162,23 @@ h2 {
     }
 }
 
+#site-footer h2{
+color:white;
+display:inline-block;
+perspective:1200px;
 
+text-shadow:
+0 1px 0 #00cccc,
+0 2px 0 #009999,
+0 3px 0 #007777,
+0 4px 10px rgba (0,255,255,0.6);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+transform-style:preserve-3d;
+animation:giroH2 12s infinite linear;
+}
+@keyframes giroH2{
+from {transform:rotateY(0deg);}
+to { transform:rotateY(360deg);}
+}
 
 
