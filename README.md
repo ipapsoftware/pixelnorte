@@ -51,5 +51,5 @@ style.css : hoja de estilo
 
 
 
-Riquelme Maicol
+Riquelme Maicol.
 
